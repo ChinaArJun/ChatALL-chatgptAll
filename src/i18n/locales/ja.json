@@ -1,0 +1,225 @@
+{
+  "settings": {
+    "enable": "適用",
+    "forExample": "例: { example }",
+    "title": "設定",
+    "general": "一般",
+    "language": "言語",
+    "languagePrompt": "新しい言語を適用するためにアプリを再起動してください。",
+    "loginOrOut": "ログイン/ログアウト",
+    "loginOrOutPrompt": "リンクをクリックしてサイトににログインまたはログアウトして閉じてください。",
+    "notice": "注意",
+    "secretPrompt": "シークレットトークンは端末に残り、他の人と共有されません。",
+    "theme": "テーマ",
+    "system": "システムと同期",
+    "light": "ライト",
+    "dark": "ダーク",
+    "bots": "AIボット"
+  },
+  "header": {
+    "clearMessages": "このチャットの会話を全て削除しますか？",
+    "yes": "はい",
+    "no": "いいえ",
+    "singleColumn": "1列",
+    "doubleColumn": "2列",
+    "tripleColumn": "3列"
+  },
+  "footer": {
+    "chooseFavorite": "お気に入りのAIを選択",
+    "sendPrompt": "送信:",
+    "promptPlaceholder": "メッセージを入力。 (Shift+Enterキーで改行)"
+  },
+  "error": {
+    "failedConnectUrl": "{ url }を接続できませんでした",
+    "closedByServer": "サーバーが接続を終了しました"
+  },
+  "modal": {
+    "confirmHide": "このメッセージを削除しますか？",
+    "confirmHideChat": "チャットを削除しますか？",
+    "done": "完了"
+  },
+  "chat": {
+    "name": "チャット",
+    "newChat": "新しいチャット",
+    "deleteAllChatHistory": "全てのチャット履歴を削除",
+    "confirmDeleteAllChatHistory": "全てのチャット履歴を削除しますか？この操作は取り消せません。"
+  },
+  "bot": {
+    "creatingConversation": "会話を作成中...",
+    "failedToCreateConversation": "会話を作ることができませんでした",
+    "name": "Null Bot",
+    "notImplemented": "工事中...",
+    "notAvailable": "ログインしていないか、正しく設定されていないため、AIを使用できません。",
+    "waiting": "その他の{botName}リクエストが完了するのを待っています...",
+    "pastRounds": "チャットのターン数を設定",
+    "pastRoundsPrompt": "過去の会話記録が多ければ多いほど、多者間会話の効果は高くなりますが、コストもかかります。"
+  },
+  "azureOpenaiApi": {
+    "name": "Azure OpenAI サービス",
+    "temperature": "温度",
+    "temperaturePrompt": "温度が高ければ高いほど、独創的な文章になるが、支離滅裂な文章になりやすい。",
+    "temperature0": "より決定論的",
+    "temperature2": "よりランダム",
+    "azureOpenAIApiKey": "キー",
+    "azureApiInstanceName": "インスタンス名",
+    "azureApiInstanceNamePrompt": "https://portal.azure.com/ の Cognitive Services でインスタンス名を表示する。",
+    "azureOpenAIApiDeploymentName": "デプロイメント名",
+    "azureOpenAIApiDeploymentNamePrompt": "https://oai.azure.com/ の[管理] -> [デプロイメント]でデプロイメント名を表示します。",
+    "azureOpenAIApiVersion": "API バージョン",
+    "azureOpenAIApiVersionPrompt": "サポートされているバージョンを https://learn.microsoft.com/en-us/azure/cognitive-services/openai/reference#completions から入手する。"
+  },
+  "bard": {
+    "name": "Gemini"
+  },
+  "bingChat": {
+    "name": "Copilot",
+    "solveCaptcha": "続行するには <a { attributes }>CAPTCHA認証/a>をしてください。",
+    "h3imaginative": "創造的に",
+    "galileo": "バランスよく",
+    "h3precise": "厳密に"
+  },
+  "chatGpt": {
+    "name": "ChatGPT",
+    "autoRefresh": "自動切断防止",
+    "autoRefreshPrompt": "頻繁にログインするように求められない場合は、この機能を無効にしてください。",
+    "notice": "ChatGPTプラス会員のみGPT-4をご利用いただけます。",
+    "text-davinci-002-render-sha": "GPT-3.5",
+    "gpt-4": "GPT-4",
+    "gpt-4-browsing": "webブラウジング",
+    "gpt-4-mobile": "GPT-4 モバイル V2"
+  },
+  "gemini": {
+    "name": "Gemini",
+    "gemini-pro": "Gemini-Pro",
+    "topK": "topK",
+    "topKPrompt": "topKの1は、モデルの語彙の中で選択されたトークンが最も確からしいことを意味します（貪欲デコードとも呼ばれます）",
+    "topP": "topP",
+    "topPPrompt": "トークンは最も確からしいものから最も確からしくないものまで選ばれ、それらの確率の合計がtopPの値に等しくなるまで選択されます"
+  },
+  "ernie": {
+    "name": "ERNIE"
+  },
+  "huggingChat": {
+    "name": "HuggingChat"
+  },
+  "gradio": {
+    "fnIndex": "fn_index",
+    "fnIndexPrompt": "リクエストする関数の fn_indexです。推奨は0です",
+    "name": "Gradio",
+    "queueFull": "キューがいっぱいです。後で再試行してください",
+    "url": "GradioアプリURL",
+    "urlPrompt": "GradioアプリのURLです。Hugging Faceスペースを使用している場合、右上隅の \"Embed this space\"をクリックして直接URLを取得します。",
+    "waiting": "キューに {queue_size}件のリクエストがあり{rank}上にあり{queue_eta}秒間待つ必要があります"
+  },
+  "lmsys": {
+    "name": "LMSYS",
+    "vicuna-13b": "vicuna-13b",
+    "chatglm-6b": "chatglm-6b",
+    "alpaca-13b": "alpaca-13b",
+    "claude-1": "claude-1"
+  },
+  "moss": {
+    "name": "MOSS"
+  },
+  "openaiApi": {
+    "name": "OpenAI API",
+    "alterUrl": "代替API URL",
+    "alterUrlPrompt": "カスタムAPI URLを使用する場合、ここに入力することができます。",
+    "gpt-35-turbo": "gpt-3.5-turbo",
+    "gpt-35-turbo-16k": "gpt-3.5-turbo-16k",
+    "gpt-4": "gpt-4",
+    "gpt-4-turbo-preview": "gpt-4-turbo-preview",
+    "temperature": "温度",
+    "temperaturePrompt": "温度が高いほど、テキストは創造的ですが、一貫性がない可能性が高いです。",
+    "temperature0": "より決定論的な",
+    "temperature2": "もっとランダム",
+    "apiKey": "APIキー"
+  },
+  "poe": {
+    "name": "Poe",
+    "a2": "Claude-instant",
+    "a2_100k": "Claude-instant-100k",
+    "a2_2": "Claude-2-100k",
+    "beaver": "GPT-4",
+    "capybara": "Assistant",
+    "chinchilla": "ChatGPT 3.5",
+    "vizcacha": "GPT-4-32k",
+    "code_llama_34b_instruct": "Code-Llama-34b",
+    "acouchy": "Google-PaLM-2",
+    "llama_2_70b_chat": "Llama-2-70b"
+  },
+  "qianWen": {
+    "name": "QianWen"
+  },
+  "360AiBrain": {
+    "name": "360 AI Brain"
+  },
+  "skyWork": {
+    "name": "SkyWork"
+  },
+  "spark": {
+    "name": "iFlytek Spark"
+  },
+  "wenxinQianfan": {
+    "name": "Wenxin Qianfan",
+    "ERNIE-Bot": "ERNIE-Bot",
+    "ERNIE-Bot-turbo": "ERNIE-Bot-turbo"
+  },
+  "youChat": {
+    "name": "YouChat"
+  },
+  "pi": {
+    "name": "Pi",
+    "waitPiIntro": "下記のチャットボットサイトのリンクをクリックし、Piの紹介が終わるのを待ち、ウィンドウを閉じてください。"
+  },
+  "dev": {
+    "name": "Dev Bot"
+  },
+  "updates": {
+    "updateAvailable": "アップデート利用可能!",
+    "currentVersion": "現バージョン",
+    "latestVersion": "新バージョン",
+    "downloadFromGitHub": "GitHub(外部サイト)からダウンロード",
+    "skipThisVersion": "このバージョンをスキップ",
+    "close": "後で"
+  },
+  "find": {
+    "find": "検索",
+    "noMatches": "結果はありません。",
+    "matchCase": "大文字と小文字を区別する",
+    "wrapAround": "結果を繰り返す"
+  },
+  "proxy": {
+    "name": "プロキシ",
+    "address": "プロキシサーバーアドレス",
+    "addressExample": "http://127.0.0.1:7890, socks5://127.0.0.1:1080",
+    "enableProxy": "プロキシを有効",
+    "proxyMode": "プロキシモード",
+    "globalMode": "ノーマルモード",
+    "pacFileMode": "プロキシ自動設定ファイルモード",
+    "pacUrlMode": "プロキシ自動設定URLモード",
+    "byPass": "非プロキシ アドレス (ノーマルモードでのみ有効)",
+    "byPassHint": "非プロキシアドレス。';'で区切られるが、最後に';'は付けない。例：'<local>;*.aliyun.com;*.tiangong.cn;*.xfyun.cn;*.baidu.com;*.baidubce.com'",
+    "fromFile": "ファイルから読み込む",
+    "fromURL": "URLから読み込む",
+    "pacUrl": "プロキシ自動設定URLアドレス",
+    "pacFile": "プロキシ自動設定ファイル",
+    "pacFileUsing": "現在使用中のプロキシ自動設定ファイル",
+    "pacFileNew": "他のプロキシ自動設定ファイルを選択",
+    "quickSet": "クイック設定",
+    "fullSet": "詳細設定",
+    "action": "アクション",
+    "onlySave": "保存のみ",
+    "saveAndApply": "保存して適用",
+    "reload": "再読み込み",
+    "reset": "リセット",
+    "proxyFilePath": "プロキシ設定ファイルのパス",
+    "proxyFilePathHint": "このファイルをバックアップしたり、他のプログラムで修正することができます。",
+    "saveSuccess": "保存成功",
+    "saveFailed": "保存失敗",
+    "resetAllMessage": "全ての設定（保存されているものも含む）が失われます。本当にリセットしますか？",
+    "reloadMessage": "保存していない設定はすべて失われます。設定ファイルを再読み込みしてよろしいですか？",
+    "saveAndActiveMessage": "プロキシ設定を適用するにはChatALLを再起動する必要があります。よろしいですか？",
+    "googleService": "Google Service"
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "10": "10",
+  "25": "25",
+  "50": "50",
+  "100": "100",
+  "settings": {
+    "enable": "Habilitar",
+    "forExample": "Por ejemplo, { ejemplo }",
+    "title": "Configuración",
+    "general": "General",
+    "language": "Idioma",
+    "languagePrompt": "Reinicie la aplicación para aplicar el nuevo idioma",
+    "loginOrOut": "Iniciar sesión/Cerrar sesión",
+    "loginOrOutPrompt": "Haga clic en el vínculo siguiente para iniciar o cerrar sesión en la nueva ventana y, a continuación, ciérrela",
+    "notice": "Notar",
+    "secretPrompt": "Su token secreto permanecerá en su dispositivo y no se compartirá con nadie más",
+    "theme": "Tema",
+    "system": "Sistema",
+    "light": "Luz",
+    "dark": "Oscuro",
+    "bots": "Bots de IA"
+  },
+  "header": {
+    "clearMessages": "¿Borrar todos los mensajes en este chat?",
+    "yes": "Sí",
+    "no": "No",
+    "singleColumn": "Columna única",
+    "doubleColumn": "Columna doble",
+    "tripleColumn": "Triple columna"
+  },
+  "footer": {
+    "chooseFavorite": "Elige tus bots de IA favoritos",
+    "sendPrompt": "Enviar a:",
+    "promptPlaceholder": "Escriba un mensaje. (Mayús+Entrar para añadir una nueva línea)"
+  },
+  "error": {
+    "error": "Error",
+    "failedConnectUrl": "Error al conectar { url }",
+    "closedByServer": "Conexión cerrada por el servidor",
+    "solveChallenge": "Haga clic en el siguiente enlace, siga las instrucciones de la página para resolver desafíos / CAPTCHA y luego cierre la ventana."
+  },
+  "modal": {
+    "confirmHide": "¿Eliminar este mensaje?",
+    "confirmHideChat": "¿Eliminar este chat?",
+    "confirmHidePrompt": "¿Eliminar este mensaje?",
+    "done": "Hecho",
+    "cancel": "Cancelar"
+  },
+  "chat": {
+    "name": "Chats",
+    "newChat": "Nuevo chat",
+    "deleteAllChatHistory": "Eliminar todo el historial de chat",
+    "downloadAllChatHistory": "Guardar todo el historial de chat",
+    "confirmDeleteAllChatHistory": "¿Está seguro de que desea eliminar todo el historial de chat? Esta acción no se puede deshacer."
+  },
+  "bot": {
+    "creatingConversation": "Creando conversación...",
+    "failedToCreateConversation": "Error al crear la conversación",
+    "name": "Bot nulo",
+    "notImplemented": "En obra...",
+    "notAvailable": "El bot no está disponible porque no inicia sesión o no está configurado correctamente.",
+    "waiting": "Esperando a que se completen otras solicitudes { botName }...",
+    "pastRounds": "¿Cuántas rondas de chats pasados llevar?",
+    "pastRoundsPrompt": "Cuantos más chats históricos se lleven a cabo, mejor será el efecto del diálogo de varias rondas, pero también consumirá más costos."
+  },
+  "360AiBrain": {
+    "name": "Cerebro de IA 360"
+  },
+  "azureOpenaiApi": {
+    "name": "Servicio Azure OpenAI",
+    "temperature": "Temperatura",
+    "temperaturePrompt": "Cuanto mayor sea la temperatura, más creativo será el texto, pero más probable es que sea incoherente.",
+    "temperature0": "Más determinista",
+    "temperature2": "Más aleatorio",
+    "azureOpenAIApiKey": "Llave",
+    "azureApiInstanceName": "Nombre de instancia",
+    "azureApiInstanceNamePrompt": "Ver el nombre de la instancia en https://portal.azure.com/#view/Microsoft_Azure_ProjectOxford/CognitiveServicesHub/~/OpenAI",
+    "azureOpenAIApiDeploymentName": "Nombre de implementación",
+    "azureOpenAIApiDeploymentNamePrompt": "Ver el nombre de la implementación en Management -> Deployments at https://oai.azure.com/",
+    "azureOpenAIApiVersion": "Versión de la API",
+    "azureOpenAIApiVersionPrompt": "Obtenga las versiones compatibles de https://learn.microsoft.com/en-us/azure/cognitive-services/openai/reference#completions"
+  },
+  "bard": {
+    "name": "Bardo"
+  },
+  "bingChat": {
+    "name": "Copilot",
+    "solveCaptcha": "Necesitas <a {=\"\" attributes=\"\" }=\"\">resolver CAPTCHA</a> para continuar.",
+    "h3imaginative": "Creativo",
+    "galileo": "Equilibrado",
+    "h3precise": "Preciso"
+  },
+  "characterAI": {
+    "name": "Character.AI"
+  },
+  "chatGpt": {
+    "name": "ChatGPT",
+    "autoRefresh": "Antidesconexión automática",
+    "autoRefreshPrompt": "Si NO se le pide que inicie sesión con frecuencia, NO habilite esta función",
+    "notice": "Solo los miembros Plus de pago pueden usar GPT-4",
+    "text-davinci-002-render-sha": "GPT-3.5",
+    "gpt-4": "GPT-4",
+    "gpt-4-browsing": "Navegación Web",
+    "gpt-4-mobile": "GPT-4 móvil V2"
+  },
+  "gemini": {
+    "name": "Gemini",
+    "gemini-pro": "Gemini-Pro",
+    "topK": "topK",
+    "topKPrompt": "Un topK de 1 significa que el token seleccionado es el más probable entre todos los tokens en el vocabulario del modelo (también llamado decodificación voraz).",
+    "topP": "topP",
+    "topPPrompt": "Los tokens se seleccionan desde el más probable hasta el menos probable hasta que la suma de sus probabilidades iguale el valor de topP"
+  },
+  "claudeAi": {
+    "name": "Claude 2"
+  },
+  "ernie": {
+    "name": "ERNIE"
+  },
+  "huggingChat": {
+    "name": "HuggingChat",
+    "OpenAssistantoasst-sft-6-llama-30b-xor": "OASST-SFT-6-LLAMA-30B",
+    "meta-llamaLlama-2-70b-chat-hf": "llama-2-70b"
+  },
+  "gradio": {
+    "fnIndex": "fn_index",
+    "fnIndexPrompt": "La fn_index de la función que solicitará. En su mayoría es 0",
+    "name": "Gradio",
+    "queueFull": "La cola está llena, inténtalo de nuevo más tarde",
+    "url": "URL de la aplicación Gradio",
+    "urlPrompt": "URL de tu aplicación Gradio. Si usa el espacio Hugging Face, obtenga la URL directa haciendo clic en \"Incrustar este espacio\" en la esquina superior derecha.",
+    "waiting": "Hay { queue_size } solicitudes en la cola, estás en { rango } º lugar y se espera que esperes { queue_eta } segundos"
+  },
+  "lmsys": {
+    "name": "LMSYS",
+    "vicuna-13b": "Vicuña-13B",
+    "chatglm-6b": "chatglm-6b",
+    "alpaca-13b": "Alpaca-13B",
+    "claude-1": "claude-1"
+  },
+  "moss": {
+    "name": "MUSGO"
+  },
+  "openaiApi": {
+    "name": "OpenAI API",
+    "alterUrl": "URL base alternativa",
+    "alterUrlPrompt": "Ruta de URL base para solicitudes de API, déjela en blanco si no usa un proxy o emulador de servicios",
+    "gpt-35-turbo": "GPT-3.5-turbo",
+    "gpt-35-turbo-16k": "GPT-3.5-Turbo-16K",
+    "gpt-4": "GPT-4",
+    "gpt-4-turbo-preview": "gpt-4-turbo-preview",
+    "temperature": "Temperatura",
+    "temperaturePrompt": "Cuanto mayor sea la temperatura, más creativo será el texto, pero más probable es que sea incoherente.",
+    "temperature0": "Más determinista",
+    "temperature2": "Más aleatorio",
+    "apiKey": "Clave API"
+  },
+  "poe": {
+    "name": "Poe",
+    "a2": "Claude-instantáneo",
+    "a2_100k": "Claude-instant-100k",
+    "a2_2": "Claude-2-100k",
+    "beaver": "GPT-4",
+    "capybara": "Assistant",
+    "chinchilla": "ChatGPT 3.5",
+    "vizcacha": "GPT-4-32k",
+    "code_llama_34b_instruct": "Code-Llama-34b",
+    "acouchy": "Google-PaLM-2",
+    "llama_2_70b_chat": "Llama-2-70b"
+  },
+  "qianWen": {
+    "name": "QianWen"
+  },
+  "skyWork": {
+    "name": "SkyWork"
+  },
+  "spark": {
+    "name": "iFlytek Spark"
+  },
+  "wenxinQianfan": {
+    "name": "Wenxin Qianfan",
+    "ERNIE-Bot": "ERNIE-Bot",
+    "ERNIE-Bot-turbo": "ERNIE-Bot-turbo"
+  },
+  "youChat": {
+    "name": "YouChat"
+  },
+  "pi": {
+    "name": "Pi",
+    "waitPiIntro": "Haga clic en el enlace del sitio web del chatbot a continuación y espere a que finalice la introducción de Pi, luego cierre la ventana."
+  },
+  "openAssistant": {
+    "name": "Asistente para abrir",
+    "queue": "Hay { queue_size } solicitudes en la cola, estás en { queue_position }º lugar"
+  },
+  "dev": {
+    "name": "Bot de desarrollo"
+  },
+  "updates": {
+    "updateAvailable": "¡Actualización disponible!",
+    "currentVersion": "Su versión",
+    "latestVersion": "Última versión",
+    "downloadFromGitHub": "Descargar desde GitHub",
+    "skipThisVersion": "Omitir esta versión",
+    "close": "Cerrar"
+  },
+  "find": {
+    "find": "Encontrar",
+    "noMatches": "No hay coincidencias",
+    "matchCase": "Estuche de fósforo",
+    "wrapAround": "Envolver"
+  },
+  "proxy": {
+    "name": "Proxy",
+    "address": "Dirección del servidor proxy",
+    "addressExample": "http://127.0.0.1:7890, calcetines5://127.0.0.1:1080",
+    "enableProxy": "Habilitar proxy",
+    "proxyMode": "Modo proxy",
+    "globalMode": "Modo normal",
+    "pacFileMode": "Modo de archivo PAC",
+    "pacUrlMode": "Modo URL PAC",
+    "byPass": "Direcciones no proxy (solo efectivas para el modo normal)",
+    "byPassHint": "Direcciones no proxy, separadas por ';', pero sin ';' al final. Por ejemplo, ';*.aliyun.com;*.tiangong.cn;*.<local>xfyun.cn;*.baidu.com;*.baidubce.com'</local>",
+    "fromFile": "Cargar desde archivo",
+    "fromURL": "Cargar desde URL",
+    "pacUrl": "Dirección URL PAC",
+    "pacFile": "Archivo PAC",
+    "pacFileUsing": "Archivo PAC utilizado actualmente",
+    "pacFileNew": "Seleccione otro archivo PAC",
+    "quickSet": "Configuración rápida",
+    "fullSet": "Configuración avanzada",
+    "action": "Acción",
+    "onlySave": "Guardar solo",
+    "saveAndApply": "Guardar y aplicar",
+    "reload": "Recargar",
+    "reset": "Restablecimiento",
+    "proxyFilePath": "Ruta del archivo de configuración del proxy",
+    "proxyFilePathHint": "Puede hacer una copia de seguridad de este archivo o modificarlo con otros programas",
+    "saveSuccess": "Guardar con éxito",
+    "saveFailed": "Error al guardar",
+    "resetAllMessage": "Se perderán todos los ajustes (incluidos los guardados). ¿Está seguro de restablecer los valores predeterminados?",
+    "reloadMessage": "Se perderán todos los ajustes sin guardar. ¿Está seguro de volver a cargar el archivo de configuración?",
+    "saveAndActiveMessage": "Aplicar la configuración de proxy reiniciará ChatALL. ¿Estás seguro?",
+    "googleService": "Servicio de Google"
+  },
+  "prompt": {
+    "addPrompt": "Agregar mensaje",
+    "title": "Título",
+    "prompt": "Pronto",
+    "action": "Acción",
+    "required": "Obligatorio"
+  },
+  "$vuetify": {
+    "firstPage": "Sin datos",
+    "dataFooter": {
+      "itemsPerPageText": "Elementos por página",
+      "pageText": "",
+      "firstPage": "Primera página",
+      "prevPage": "Página anterior",
+      "lastPage": "Última página",
+      "nextPage": "Página siguiente",
+      "itemsPerPageAll": "Todo"
+    },
+    "input": {
+      "clear": "Claro"
+    }
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "settings": {
+    "enable": "사용함",
+    "forExample": "예: { example }",
+    "title": "설정",
+    "general": "일반",
+    "language": "언어",
+    "languagePrompt": "새 언어를 적용하기 위해 앱을 다시 시작",
+    "loginOrOut": "로그인/로그아웃",
+    "loginOrOutPrompt": "아래 링크를 클릭하여 새 창에 로그인하거나 로그아웃한 다음 닫습니다",
+    "notice": "알림",
+    "secretPrompt": "비밀 토큰은 단말기에 남아 다른 사람과 공유되지 않습니다",
+    "theme": "테마",
+    "system": "시스템",
+    "light": "밝은",
+    "dark": "어두운",
+    "bots": "AI 봇"
+  },
+  "header": {
+    "clearMessages": "모든 메시지를 지우시겠습니까?",
+    "yes": "예",
+    "no": "아니오",
+    "singleColumn": "1열",
+    "doubleColumn": "2열",
+    "tripleColumn": "3열",
+    "selectedResponsesCount": "{ selectedCount } 선택됨"
+  },
+  "footer": {
+    "chooseFavorite": "좋아하는 AI 봇 선택",
+    "sendPrompt": "보내기:",
+    "promptPlaceholder": "메시지를 입력합니다. (Shift+Enter를 입력하여 새 줄 추가)",
+    "madeInChina": "중국산",
+    "openSource": "오픈 소스",
+    "free": "무료",
+    "paid": "유료",
+    "api": "API"
+  },
+  "error": {
+    "error": "오류",
+    "failedConnectUrl": "{ url }을(를) 연결하지 못했습니다",
+    "closedByServer": "서버가 연결을 닫았습니다",
+    "requireLogin": "로그인해주세요: { link }",
+    "solveChallenge": "아래 링크를 클릭하고 페이지의 지침에 따라 과제/캡챠를 해결한 후 창을 닫습니다."
+  },
+  "modal": {
+    "confirmHide": "이 메시지를 삭제하시겠습니까?",
+    "confirmHideChat": "이 대화를 삭제하시겠습니까?",
+    "confirmHidePrompt": "이 프롬프트를 삭제하시겠습니까?",
+    "confirmHideAction": "이 동작을 삭제하시겠습니까?",
+    "done": "완료",
+    "cancel": "취소"
+  },
+  "chat": {
+    "name": "대화",
+    "newChat": "새 대화",
+    "deleteAllChatHistory": "모든 대화 기록 삭제",
+    "downloadAllChatHistory": "모든 채팅 기록 저장",
+    "exportImport": "내보내기 / 가져오기",
+    "exportImportDesc": "봇 설정 및 API 키를 제외한 설정 및 채팅을 내보내거나 가져옵니다.",
+    "export": "데이터 내보내기",
+    "exportDesc": "내보내기는 봇 설정과 API 키를 제외한 데이터가 포함된 .ChatALL 파일을 만듭니다. 내보내기를 확인하시겠습니까?",
+    "exportFailed": "데이터 내보내기 실패",
+    "exportSuccess": "데이터 내보내기 성공",
+    "import": "데이터 가져오기",
+    "importDesc": "가져오기 프로그램에서 선택한 .ChatALL 내보내기 파일과 현재 채팅을 병합하고 업데이트하려고 합니다. 내보내기를 클릭하여 현재 채팅 기록 및 설정을 저장하여 데이터를 백업합니다. 이를 통해 가져오기 오류 시 복원할 수 있습니다. 가져오기를 확인하시겠습니까?",
+    "importLog": "가져오기 로그",
+    "importSuccess": "데이터 가져오기 성공",
+    "importFailed": "데이터 가져오기 실패",
+    "confirmDeleteAllChatHistory": "모든 대화 기록을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+    "actions": "동작",
+    "addAction": "동작 추가",
+    "actionName": "이름",
+    "prefix": "접두사",
+    "actionTemplate": "템플릿",
+    "suffix": "접미사",
+    "preview": "미리보기",
+    "inNewChat": "새 대화에서",
+    "inCurrentChat": "현재 대화에서",
+    "templateParameters": "템플릿 매개변수",
+    "parameter": "매개변수",
+    "description": "설명",
+    "botNameDesc": "선택한 응답의 봇 이름",
+    "botResponseDesc": "선택된 응답",
+    "loading": "로드 중...",
+    "updateDebounceInterval": "메시지 업데이트 간격 (밀리초)",
+    "updateDebounceIntervalDesc": "이 값은 AI봇이 응답할 때 메시지 업데이트 속도를 조절합니다. 값이 높으면 메시지 처리가 지연되고 한 번에 업데이트되는 것이 더 효율적입니다. 값이 낮으면 메시지가 더 빨리 업데이트되지만 성능 문제가 발생할 수 있습니다."
+  },
+  "bot": {
+    "creatingConversation": "대화를 만드는 중...",
+    "disabled": "사용 안 함",
+    "failedToCreateConversation": "대화를 만들지 못했습니다",
+    "name": "Null 봇",
+    "notImplemented": "공사 중...",
+    "notAvailable": "로그인하지 않았거나 올바르게 구성되지 않았기 때문에 봇을 사용할 수 없습니다.",
+    "waiting": "다른 {botName} 요청이 완료되기를 기다리는 중...",
+    "pastRounds": "몇 번의 과거 채팅을 가지고 가야 합니까?",
+    "pastRoundsPrompt": "과거 대화 기록이 많을수록 다자간 대화의 효과는 더 좋아지지만 비용도 더 많이 소모됩니다."
+  },
+  "360AiBrain": {
+    "name": "360 AI Brain"
+  },
+  "azureOpenaiApi": {
+    "name": "Azure OpenAI 서비스",
+    "temperature": "온도",
+    "temperaturePrompt": "온도가 높을수록 텍스트는 창의적이지만 일관성이 없을 가능성이 높습니다",
+    "temperature0": "더 결정론적인",
+    "temperature2": "더 무작위적인",
+    "azureOpenAIApiKey": "키",
+    "azureApiInstanceName": "인스턴스 이름",
+    "azureApiInstanceNamePrompt": "https://portal.azure.com/#view/Microsoft_Azure_ProjectOxford/CognitiveServicesHub/~/OpenAI에서 인스턴스 이름 보기",
+    "azureOpenAIApiDeploymentName": "Azure OpenAI API 배포 이름",
+    "azureOpenAIApiDeploymentNamePrompt": "https://oai.azure.com/ 에서 관리 -> 배포에서 배포 이름을 확인합니다",
+    "azureOpenAIApiVersion": "API 버전",
+    "azureOpenAIApiVersionPrompt": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/reference#completions에서 지원되는 버전 다운로드"
+  },
+  "bard": {
+    "name": "Gemini",
+    "gemini-pro": "Gemini",
+    "gemini-ultra": "Gemini 고급"
+  },
+  "bingChat": {
+    "name": "Copilot",
+    "solveCaptcha": "계속하려면 <a { attributes }>CAPTCHA를 해결</a>해야 합니다.",
+    "h3imaginative": "창의적인",
+    "galileo": "균형 있는",
+    "h3precise": "정밀한"
+  },
+  "characterAI": {
+    "name": "Character.AI"
+  },
+  "chatGpt": {
+    "name": "ChatGPT",
+    "autoRefresh": "자동 연결 끊김 방지",
+    "autoRefreshPrompt": "자주 로그인하라는 메시지가 표시되지 않는 경우 이 기능을 사용하지 않음",
+    "notice": "유료 플러스 회원만 GPT-4를 사용할 수 있습니다",
+    "text-davinci-002-render-sha": "GPT-3.5",
+    "gpt-4": "GPT-4",
+    "gpt-4-browsing": "웹 브라우징",
+    "gpt-4-mobile": "GPT-4 모바일 V2"
+  },
+  "gemini": {
+    "name": "Gemini",
+    "gemini-pro": "Gemini-Pro",
+    "topK": "topK",
+    "topKPrompt": "topK가 1이라는 것은 선택된 토큰이 모델의 어휘 중에서 가장 가능성이 높은 것을 의미합니다 (탐욕스러운 디코딩이라고도 함).",
+    "topP": "topP",
+    "topPPrompt": "토큰은 가장 가능성이 높은 것부터 가장 낮은 것까지 선택되며, 그 확률의 합이 topP 값과 같아질 때까지 선택됩니다"
+  },
+  "claudeAi": {
+    "name": "Claude 2"
+  },
+  "ernie": {
+    "name": "ERNIE"
+  },
+  "huggingChat": {
+    "name": "HuggingChat",
+    "codellamaCodeLlama-34b-Instruct-hf": "Code Llama",
+    "OpenAssistantoasst-sft-6-llama-30b-xor": "oasst-sft-6-llama-30b",
+    "meta-llamaLlama-2-70b-chat-hf": "llama-2-70b",
+    "tiiuaefalcon-180B-chat": "falcon-180b",
+    "HuggingFaceH4zephyr-7b-beta": "zephyr-7b"
+  },
+  "gradio": {
+    "fnIndex": "fn_index",
+    "fnIndexPrompt": "요청할 함수의 fn_index입니다. 대부분 0입니다",
+    "name": "Gradio",
+    "queueFull": "대기열이 가득 찼습니다. 나중에 다시 시도하십시오",
+    "url": "Gradio 앱 URL",
+    "urlPrompt": "Gradio 앱의 URL입니다. Hugging Face 공간을 사용하는 경우 오른쪽 상단 모서리의 \"Embed this space\"를 클릭하여 직접 URL을 가져옵니다.",
+    "waiting": "대기열에 {queue_size}개의 요청이 있으며 {rank} 위에 있으며 {queue_eta}초 동안 기다려야 합니다"
+  },
+  "lmsys": {
+    "name": "LMSYS",
+    "vicuna-7b": "vicuna-7b",
+    "vicuna-13b": "vicuna-13b",
+    "vicuna-33b": "vicuna-33b",
+    "chatglm-6b": "chatglm-6b",
+    "chatglm2-6b": "chatglm2-6b",
+    "chatglm3-6b": "chatglm3-6b",
+    "alpaca-13b": "alpaca-13b",
+    "claude-1": "claude-1",
+    "wizardlm-13b": "WizardLM-13B",
+    "wizardlm-70b": "WizardLM-70B",
+    "codellama-34b-instruct": "Code Llama",
+    "llama-2-13b-chat": "llama-2-13b",
+    "llama-2-7b-chat": "llama-2-7b",
+    "llama-2-70b-chat": "llama-2-70b"
+  },
+  "moss": {
+    "name": "MOSS"
+  },
+  "openaiApi": {
+    "name": "OpenAI API",
+    "alterUrl": "대체 기본 URL",
+    "alterUrlPrompt": "API 요청의 기본 URL 경로, 프록시 또는 서비스 에뮬레이터를 사용하지 않는 경우 비워 두십시오",
+    "gpt-35-turbo": "gpt-3.5-터보",
+    "gpt-35-turbo-16k": "gpt-3.5-터보-16k",
+    "gpt-4": "gpt-4",
+    "gpt-4-turbo-preview": "gpt-4-turbo-미리보기",
+    "temperature": "온도",
+    "temperaturePrompt": "온도가 높을수록 텍스트는 창의적이지만 일관성이 없을 가능성이 높습니다",
+    "temperature0": "더 결정론적인",
+    "temperature2": "더 무작위적인",
+    "apiKey": "API 키"
+  },
+  "poe": {
+    "name": "Poe",
+    "a2": "Claude-instant",
+    "a2_100k": "Claude-instant-100k",
+    "a2_2": "Claude-2-100k",
+    "beaver": "GPT-4",
+    "capybara": "Assistant",
+    "chinchilla": "ChatGPT 3.5",
+    "vizcacha": "GPT-4-32k",
+    "code_llama_34b_instruct": "Code-Llama-34b",
+    "acouchy": "Google-PaLM-2",
+    "llama_2_70b_chat": "Llama-2-70b"
+  },
+  "qianWen": {
+    "name": "QianWen"
+  },
+  "skyWork": {
+    "name": "SkyWork"
+  },
+  "spark": {
+    "name": "iFlytek Spark"
+  },
+  "wenxinQianfan": {
+    "name": "Wenxin Qianfan",
+    "ERNIE-Bot": "ERNIE-Bot",
+    "ERNIE-Bot-turbo": "ERNIE-Bot-turbo",
+    "ERNIE-Bot-4": "ERNIE-Bot-4"
+  },
+  "youChat": {
+    "name": "YouChat"
+  },
+  "chatGlm": {
+    "name": "ChatGLM"
+  },
+  "pi": {
+    "name": "Pi",
+    "waitPiIntro": "아래 챗봇 사이트 링크를 클릭하여 Pi 소개가 끝날 때까지 기다렸다가 창을 닫아주세요."
+  },
+  "openAssistant": {
+    "name": "Open Assistant",
+    "queue": "대기열에 {queue_size}개의 요청이 있습니다. 현재 {queue_position} 위입니다"
+  },
+  "falcon": {
+    "name": "Falcon",
+    "falcon-180b": "180b",
+    "temperature": "온도",
+    "temperaturePrompt": "값이 높을수록 보다 다양한 결과물을 생성합니다",
+    "maxNewTokens": "새 토큰 최대 수",
+    "maxNewTokensPrompt": "새 토큰의 최대 개수",
+    "topP": "Top-p (핵 표본 추출)",
+    "topPPrompt": "값이 높을수록 더 많은 저확률 토큰 표본 추출",
+    "repetitionPenalty": "반복 페널티",
+    "repetitionPenaltyPrompt": "반복되는 토큰에 벌칙 부여"
+  },
+  "phind": {
+    "name": "Phind"
+  },
+  "dev": {
+    "name": "Dev Bot"
+  },
+  "updates": {
+    "updateAvailable": "업데이트 가능!",
+    "currentVersion": "사용자 버전",
+    "latestVersion": "최신 버전",
+    "downloadFromGitHub": "GitHub에서 다운로드",
+    "skipThisVersion": "이 버전 건너뛰기",
+    "close": "닫기"
+  },
+  "find": {
+    "find": "찾기",
+    "noMatches": "일치 항목 없음",
+    "matchCase": "대소문자 일치",
+    "wrapAround": "둘러싸기"
+  },
+  "proxy": {
+    "name": "프록시",
+    "address": "프록시 서버 주소",
+    "addressExample": "http://127.0.0.1:7890, socks5://127.0.0.1:1080",
+    "enableProxy": "프록시 사용",
+    "proxyMode": "프록시 모드",
+    "globalMode": "일반 모드",
+    "pacFileMode": "PAC 파일 모드",
+    "pacUrlMode": "PAC URL 모드",
+    "byPass": "프록시가 아닌 주소 (일반 모드에서만 유효)",
+    "byPassHint": "프록시가 아닌 주소는 ';'으로 구분하되 끝에 ';'을 넣지 않습니다. 예:  '<local>;*.aliyun.com;*.tiangong.cn;*.xfyun.cn;*.baidu.com;*.baidubce.com'",
+    "fromFile": "파일에서 불러오기",
+    "fromURL": "URL에서 불러오기",
+    "pacUrl": "PAC URL 주소",
+    "pacFile": "PAC 파일",
+    "pacFileUsing": "현재 사용 중인 PAC 파일",
+    "pacFileNew": "기타 PAC 파일 선택",
+    "quickSet": "빠른 구성",
+    "fullSet": "고급 구성",
+    "action": "동작",
+    "onlySave": "저장만",
+    "saveAndApply": "저장 및 적용",
+    "reload": "다시 불러오기",
+    "reset": "재설정",
+    "proxyFilePath": "프록시 구성 파일의 경로",
+    "proxyFilePathHint": "이 파일을 백업하거나 다른 프로그램으로 수정할 수 있습니다",
+    "saveSuccess": "저장 성공",
+    "saveFailed": "저장 실패",
+    "resetAllMessage": "모든 설정 (저장됨 포함)이 손실됩니다. 기본값으로 재설정하시겠습니까?",
+    "reloadMessage": "저장하지 않으면 모든 설정이 손실됩니다. 구성 파일을 다시 불러오시겠습니까?",
+    "saveAndActiveMessage": "프록시 구성을 적용하면 ChatALL이 다시 시작됩니다. 확실합니까?",
+    "googleService": "Google 서비스"
+  },
+  "prompt": {
+    "addPrompt": "프롬프트 추가",
+    "title": "제목",
+    "prompt": "프롬프트",
+    "action": "동작",
+    "required": "필수"
+  },
+  "$vuetify": {
+    "firstPage": "데이터 없음",
+    "dataFooter": {
+      "itemsPerPageText": "페이지당 항목 수",
+      "pageText": "",
+      "firstPage": "첫 번째 페이지",
+      "prevPage": "이전 페이지",
+      "lastPage": "마지막 페이지",
+      "nextPage": "다음 페이지",
+      "itemsPerPageAll": "모두"
+    },
+    "input": {
+      "clear": "지우기"
+    },
+    "open": "열기"
+  },
+  "10": "10",
+  "25": "25",
+  "50": "50",
+  "100": "100"
+}
